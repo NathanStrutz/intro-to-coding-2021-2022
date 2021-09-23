@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  padding: 10em 3em;
+  background: url(./3840x2160-code.jpg) #333 no-repeat 60% center fixed;
+  color: #fff;
+  text-align: center;
+}
+header h1 {
+  font-size: 6em;
+}
+footer {
+  padding: 4em 3em;
+  background: url(./3840x2160-code.jpg) #333 no-repeat left bottom;
+  color: #fff;
+  text-align: center;
+}
+
+main {
+  margin: 1em auto;
+  max-width: 1200px;
+  padding: 0 3em;
+  display: flex;
+  min-height: calc(100vh - 700px - 180px);
+}
+main > nav {
+  flex: 0 0 auto;
+  width: 200px;
+  padding-right: 1em;
+}
+main > nav > a {
+  display: block;
+  text-decoration: none;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  color: #034677;
+  border-radius: 12px;
+}
+main > nav > a.schedule {
+  background-color: #90be92;
+}
+main > nav > a:hover {
+  text-decoration: underline;
+}
+main > section {
+  flex: 1 1 auto;
+}
+article.testimonial {
+  display: flex;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+article.testimonial > * {
+  margin-right: 1em;
+}
